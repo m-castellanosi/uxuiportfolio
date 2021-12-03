@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "SF-Pro";
+    src: url(../text/SF-Pro.ttf);
+}
+
+body{
+    font-family: "SF-Pro";
+    padding: 3.12rem 6.25rem;
+    text-align:left;
+    color: #333333;
+}
+
+h1{
+    font-size: 4rem;
+    line-height: 2.375rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    line-height: 29px;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+    cursor: pointer;
+}
+
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-bottom: 3.12rem;
+}
+
+.navbar h3{
+    /* NavBar */
+   font-style: normal;
+   line-height: 29px;
+   color: #333333;
+   /* identical to box height */
+   display: flex;
+   align-items: flex-end;
+   text-align: right;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-bottom: 17rem;
+}
+
+.low{
+    display: flex;
+    justify-content:space-between;
+    font-family: SF-Pro;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    left:0px;
+    bottom:0px;
+    height:1.875rem;
+    width:100%;
+ }
+
+@media only screen and (max-width: 769px) {
+
+    body{
+        padding: 1rem 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+
+        padding-bottom: 0.5rem;
+        line-height: 1.813rem;
+    }
+
+    h3{
+        font-size: 1rem;
+        line-height: 2.375rem;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .about h3{
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        padding-bottom: 3.12rem;  
+    }
+
+    hr{
+        width: 90%;
+    }
+
+    .low{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1.5rem; 
+    }
+
+  }

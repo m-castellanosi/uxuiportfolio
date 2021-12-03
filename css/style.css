@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "SF-Pro";
+    src: url("../text/SF-Pro.ttf");
+}
+
+body{
+    background-color: #f9f9f9;
+}
+
+h1{
+    font-family: "SF-Pro";
+    font-size: 4rem;
+    font-weight:100;
+    padding: 3.12rem 6.25rem;
+    padding-top: 4rem;
+    font-weight: 6.25rem;
+    text-align:left;
+    width: 50%;
+    color: #f9f9f9;
+}
+
+h2{
+    font-family: "SF-Pro";
+    font-size: 2rem;
+    font-weight:100;
+    line-height: 2.375rem;
+    padding-bottom: 0.5rem;
+    text-align:left;
+    color: #333333;
+    cursor: pointer;
+
+}
+h3{
+    font-family: "SF-Pro";
+    font-size: 1.5rem;
+    font-weight:lighter;
+    line-height: 1.813rem;
+    color: #333333;
+    cursor: pointer;
+}
+
+p{
+    font-family: "SF-Pro";
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.188rem;
+    padding-bottom: 0.5rem;
+    color:rgba(0, 0, 0, 50%);
+    cursor: pointer;
+}
+
+.container{
+    width: 90%;
+    max-width: 76.25rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    /* justify-content: space-between; */
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    align-items: flex-end;
+}
+.project img{
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.text-project p, h2, h3{
+    flex-direction: column;
+   
+    padding-left: 1.5rem;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 3.12rem 6.25rem;
+}
+
+.navbar h3:first-child{
+    padding-left: 0rem;
+}
+
+.class {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.navbar h3{
+ /* NavBar */
+font-style: normal;
+line-height: 1.813rem;
+color: #f9f9f9;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+text-align: right;
+}
+
+.black-background{
+    background-color: #333333;
+    height: 45.62rem;
+}
+
+hr{
+    width: 86%;
+}
+
+.low{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 3.12rem 6.25rem;
+    font-family: "SF-Pro";
+    font-size: 1.5rem;
+    font-weight:100;
+    padding: 3.12rem 6.25rem;
+    padding-top: 3rem;
+    text-align:left;
+    color: #333333;
+}
+
+.low h3{
+    padding-left: 0rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.foto{
+    width: 50%;
+}
+
+.text-project{
+    width: 50%;
+}
+
+@media only screen and (max-width: 769px) {
+
+   
+    .navbar{
+        padding: 1rem 2rem;
+    }
+
+    .class{
+        display: none;
+    }
+
+    .foto{
+       display: flex;
+       justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .top-division{
+        padding-top: 2.5rem;
+    }
+
+    h1{
+        font-size: 2rem;
+        padding: 1rem 2rem;
+        padding-top: 4rem;
+        width: 80%;
+    }
+
+    p{
+        padding-top: 1.5rem;
+        padding-bottom: 0.5rem;
+        color:rgba(0, 0, 0, 50%);
+        cursor: pointer;
+    }
+
+    h2{
+        font-size: 1.5rem;
+
+        padding-bottom: 0.5rem;
+        line-height: 1.813rem;
+    }
+
+    h3{
+        font-size: 1rem;
+        line-height: 1.188rem;
+    }
+    
+    .project{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    
+    }
+
+    .text-project p, h2, h3{
+        flex-direction: column;
+        padding-left: 0rem;
+        justify-content: center;
+       
+    }
+    .text-project{
+        width: 95%;
+    }
+
+    hr{
+        width: 90%;
+    }
+
+    .low{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .low h3:first-child{
+        padding-left: 0rem;
+        padding-top: 1rem;
+    }
+
+    .black-background{
+        height: 23.438rem;
+    }
+  
+  }
